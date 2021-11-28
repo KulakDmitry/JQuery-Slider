@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./main.js"></script>
+    <title>JQuery Color Slider</title>
+  </head>
+  <body>
+    <form class="container">
+      <fieldset class="select-block">
+        <legend>Select</legend>
+        <input type="radio" id="color" name="color-select" value="color" />
+        <label for="color">color</label>
+        <input
+          type="radio"
+          id="bg-color"
+          name="color-select"
+          value="background-color"
+          checked
+        />
+        <label for="bg-color">background-color</label>
+      </fieldset>
+      <div class="slider-menu">
+        <div class="slider">
+          <div id="red"></div>
+          <div id="green"></div>
+          <div id="blue"></div>
+        </div>
+        <p class="text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab
+          accusantium atque consequuntur labore nemo porro saepe sit tempore
+          unde. Alias aperiam dolore earum error harum itaque labore nobis
+          perferendis sed.
+        </p>
+      </div>
+    </form>
+  </body>
+</html>

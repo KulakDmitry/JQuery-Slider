@@ -1,0 +1,84 @@
+*,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 5% 30%;
+}
+.select-block {
+  padding: 3%;
+  border-right: none;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"]:checked + label {
+  background-color: rgb(77 113 245);
+  color: whitesmoke;
+}
+
+label {
+  cursor: pointer;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+label:hover {
+  color: whitesmoke;
+  background-color: rgb(77 113 245);
+}
+
+.slider-menu {
+  display: flex;
+  margin-top: 6%;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.text {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.text,
+.slider {
+  width: 50%;
+  padding: 3%;
+}
+
+#blue,
+#green,
+#red,
+#blue span,
+#green span,
+#red span {
+  cursor: pointer;
+}
+
+#red div,
+#red .ui-state-active,
+.ui-widget-content .ui-state-active {
+  background-color: rgb(212 62 49);
+}
+
+#green div,
+#green .ui-state-active,
+.ui-widget-content .ui-state-active {
+  background-color: rgb(159 277 83);
+}
+
+#blue div,
+#blue .ui-state-active,
+.ui-widget-content .ui-state-active {
+  background-color: rgb(128 153 201);
+}
